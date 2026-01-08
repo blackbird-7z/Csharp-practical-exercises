@@ -1,0 +1,20 @@
+# Pastas de compilação (Arquivos binários)
+[Bb]in/
+[Oo]bj/
+
+# Arquivos de configuração do Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Cache de pacotes NuGet
+*.nuget.props
+*.nuget.targets
+project.lock.json
