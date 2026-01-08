@@ -20,22 +20,37 @@ $$s = \frac{a+b+c}{2}$$
 
 Below is a simulation of the execution. The values highlighted in <font color="red">**red**</font> indicate the inputs entered by the user in the console:
 
-<pre>
+```diff
+  Enter the measurements of triangle X:
+- 3.00
+- 4.00
+- 5.00
+  Enter the measurements of triangle Y:
+- 7.50
+- 4.50
+- 4.02
+
+  Triangle X area = 6.0000
+  Triangle Y area = 7.5638
+  Larger area: Y
+  ```
+  ```text
 Enter the measurements of triangle X:
-<font color="red">3.00</font>
-<font color="red">4.00</font>
-<font color="red">5.00</font>
+> 3.00
+> 4.00
+> 5.00
 Enter the measurements of triangle Y:
-<font color="red">7.50</font>
-<font color="red">4.50</font>
-<font color="red">4.02</font>
+> 7.50
+> 4.50
+> 4.02
 
 Triangle X area = 6.0000
 Triangle Y area = 7.5638
 Larger area: Y
-</pre>
-
+```
 ---
+
+
 
 ## 🛠️ Technologies and Concepts
 * **Language:** C#
